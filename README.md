@@ -19,13 +19,15 @@ Back-end challenge for the 2023 Hackathon.
 ## How to use
 
 <ul>
-  <li>Modify application.properties as needed.</li>
+  <li>Modify application.properties located in src/main/resuroces as needed.</li>
   <li>Modify "spring.datasource.url=jdbc:mysql://[pathToYourDatabaseServer/databaseName]" to your MySQL database server and database name."</li>
   <li>Modify "spring.datasource.username" to your database username.</li>
   <li>Modify "spring.datasource.password" to your database password.</li>
   <li>Modify server.port to your desired port for the API</li>
   <li>You can also modify the JWT secret key and expiration time</li>
  </ul>
+ 
+ <p>If all is correctly configured. The API will automatically initialise the database tables with some example values defined in "/src/main/resources/data.sql".</p>
 
 ## Utilisation example
 
