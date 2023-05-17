@@ -22,11 +22,11 @@ public class JwtUtils {
 	private static final Logger logger = LoggerFactory.getLogger(JwtUtils.class);
 
 	// Get jwt secret from application.properties
-	@Value("${TA27.E1.jwtSecret}")
+	@Value("${JPallas.Hackathon.jwtSecret}")
 	private String jwtSecret;
 
-	// Get expiration time from application.properties
-	@Value("${TA27.E1.jwtExpirationMs}")
+	// Get expiration time in ms from application.properties
+	@Value("${JPallas.Hackathon.jwtExpirationMs}")
 	private int jwtExpirationMs;
 
 	// Function to generate JWT Tokens
